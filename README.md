@@ -6,6 +6,7 @@ Endpoint http://localhost:8080/ws/beers
 WSDL http://localhost:8080/ws/beers.wsdl
 
 Request example
+```xml
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:beer="http://memorynotfound.com/beer">
    <soapenv:Header xmlns:wsa="http://www.w3.org/2005/08/addressing">
       <wsa:Action soapenv:mustUnderstand="1">http://memorynotfound.com/getBeerRequest</wsa:Action>
@@ -21,4 +22,4 @@ Request example
       </beer:getBeerRequest>
    </soapenv:Body>
 </soapenv:Envelope>
-
+```
