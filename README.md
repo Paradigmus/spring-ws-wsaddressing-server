@@ -1,5 +1,5 @@
 # spring-ws-wsaddressing-server
-Server on spring boot 1.3.1
+SOAP WS Server on spring boot 1.3.1
 Supporting WS-Addressing.
 
 Endpoint http://localhost:8080/ws/beers
